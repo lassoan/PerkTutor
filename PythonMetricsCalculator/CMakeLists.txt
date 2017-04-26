@@ -69,7 +69,7 @@ slicerMacroBuildScriptedModule(
   NAME ${MODULE_NAME}
   SCRIPTS ${MODULE_PYTHON_SCRIPTS}
   RESOURCES ${MODULE_PYTHON_RESOURCES}
-  WITH_GENERIC_TESTS # Note: The generic test always fails because the scripted module cannot find the loadable modules it depends on. This is expected.
+  #WITH_GENERIC_TESTS # Note: The generic test always fails because the scripted module cannot find the loadable modules it depends on. This is expected.
   )
 
 #-----------------------------------------------------------------------------
